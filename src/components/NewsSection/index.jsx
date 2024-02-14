@@ -18,6 +18,13 @@ const NewsSection = ({ mydata }) => {
                 {x.time} on {x.date}
               </p>
             </div>
+            <div className="flex w-full justify-end pt-2 font-bold">
+              <button className="rounded-md bg-blue-300 px-2" type="button">
+                <a href={x.readMoreUrl} alt="linkofurl">
+                  Read More...
+                </a>
+              </button>
+            </div>
           </div>
         </div>
       ))}
