@@ -22,7 +22,6 @@ body {
 
 .img_news {
   width: 100%;
-  aspect-ratio: 1/1;
 }
 .img_news img {
   height: 100%;
